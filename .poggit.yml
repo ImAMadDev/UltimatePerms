@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ImAMadDev/UltimatePerms
+build-by-default: true
+branches:
+- main
+projects:
+  UltimatePerms:
+    path: ""
+...
