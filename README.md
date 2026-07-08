@@ -15,7 +15,7 @@
 - [Grupos y Rangos](#grupos-y-rangos)
 - [Almacenamiento](#almacenamiento)
 - [API Pública](#api-pública)
-- [Wiki Completa](#wiki-completa)
+- [Wiki Completa](https://github.com/ImAMadDev/UltimatePerms/wiki)
 
 ## Características
 
@@ -527,18 +527,6 @@ class MyListener implements Listener {
     }
 }
 ```
-
-## Wiki Completa
-
-- **[Home](wiki/Home.md)** — Inicio y conceptos clave
-- **[Installation](wiki/Installation.md)** — Guía de instalación
-- **[Commands](wiki/Commands.md)** — Referencia completa de comandos
-- **[Permissions](wiki/Permissions.md)** — Sistema de permisos avanzado
-- **[Groups](wiki/Groups.md)** — Gestión de grupos y jerarquía
-- **[Storage](wiki/Storage.md)** — Backends de almacenamiento
-- **[API](wiki/API.md)** — API pública para desarrolladores
-- **[Advanced](wiki/Advanced.md)** — Temas avanzados y extensibilidad
-- **[Troubleshooting](wiki/Troubleshooting.md)** — Solución de problemas
 
 ## Permisos de Plugin
 
