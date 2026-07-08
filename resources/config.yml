@@ -1,0 +1,32 @@
+# ── Chat & Display ────────────────────────────────────────────────────
+# Placeholders: {prefix} {suffix} {name} {displayname}
+#               {message} {group} {group_display} {chat_color}
+
+# Formato del mensaje en el chat
+chat:
+  enabled: true
+  format: "{prefix}{name}{suffix}§r: {chat_color}{message}"
+
+
+# Formato del nombre sobre la cabeza y en el tablist
+nametag:
+  enabled: true
+  format: "{prefix}{name}{suffix}"
+
+displayName:
+  enabled: true
+
+locale: en_US
+
+# ── Storage ──────────────────────────────────────────────────────────
+storage:
+  # Opciones: yaml | json | sqlite | mysql
+  type: json
+
+  # Solo necesario si type: mysql
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: ""
+    database: ultimateperms

@@ -1,0 +1,64 @@
+name: UltimatePerms
+main: appgallery\uperms\Loader
+version: 1.0
+author: AppGallery
+api: 5.0.0
+permissions:
+  ultimateperms.admin:
+    description: "Full access to UltimatePerms"
+    default: op
+
+  ultimateperms.notify.expire:
+    description: "Receive notifications when permissions or groups expire"
+    default: op
+  ultimateperms.command:
+    description: "Access to basic UltimatePerms commands"
+    default: op
+  ultimateperms.command.check:
+    description: "Check player permissions and verify if they have access to specific commands"
+    default: op
+  ultimateperms.command.inspect:
+    description: "Inspect and view detailed information about permissions nodes"
+    default: op
+  ultimateperms.command.reload:
+    description: "Reload UltimatePerms configuration and recalculate all online player permissions"
+    default: op
+  ultimateperms.command.simulate:
+    description: "Simulate permissions for a player in different contexts (world, gamemode, etc)"
+    default: op
+  ultimateperms.command.ui:
+    description: "Open the UltimatePerms graphical user interface (experimental feature)"
+    default: op
+  ultimateperms.command.group:
+    description: "Access to group management commands"
+    default: op
+  ultimateperms.command.group.create:
+    description: "Create new permission groups"
+    default: op
+  ultimateperms.command.group.delete:
+    description: "Delete existing permission groups"
+    default: op
+  ultimateperms.command.group.info:
+    description: "View detailed information about a permission group (permissions, hierarchy, metadata)"
+    default: op
+  ultimateperms.command.group.edit:
+    description: "Manage group permissions, prefixes, suffixes, weights, and metadata"
+    default: op
+  ultimateperms.command.user:
+    description: "Access to player management commands"
+    default: op
+  ultimateperms.command.user.audit:
+    description: "View audit trail and history of permission changes for a player"
+    default: op
+  ultimateperms.command.user.info:
+    description: "View detailed information about a player (groups, permissions, context)"
+    default: op
+  ultimateperms.command.user.perm:
+    description: "Manage personal permission overrides for players (grant or deny specific permissions)"
+    default: op
+  ultimateperms.command.user.meta:
+    description: "Manage custom metadata key-value pairs for players"
+    default: op
+  ultimateperms.command.user.group:
+    description: "Assign or remove permission groups (groups) to/from players (supports temporary groups with expiration)"
+    default: op
