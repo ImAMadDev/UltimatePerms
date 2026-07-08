@@ -1,6 +1,6 @@
 name: UltimatePerms
 main: appgallery\uperms\Loader
-version: 1.0
+version: 1.0-BETA
 author: AppGallery
 api: 5.0.0
 permissions:
